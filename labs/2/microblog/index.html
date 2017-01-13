@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Microblog</title>
+    <link href="style/main.css" rel="stylesheet" type="text/css"/>
+    <link href="style/index.css" rel="stylesheet" type="text/css"/>
+    <link href="style/form.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <h1>Microblog</h1>
+        <div id="profile_button" class="header_button"><img src="media/user.png"></div>
+    </header>
+
+    <form class="complex_form" id="message_form">
+      <div class="form_title">Post a message</div>
+      <textarea class="form_element" placeholder="Enter your message"></textarea>
+      <input type="submit" class="btn" value="submit"/>
+    </form>
+
+    <div id="messages">
+      <div class="container">
+        <div class="user">
+          <img src="media/user.png" class="item1">
+          <span class="item2">Alice</span>
+        </div>
+        <div class="postMessage">
+          This microblog is way better than piazza!
+        </div>
+        <div class="thumbs">
+          <div>1</div>
+          <div class="item2" id="thumbsdown"></div>
+          <div>512</div>
+          <div class="item2" id="thumbsup"></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="user">
+          <img src="media/user.png" class="item1">
+          <span class="item2">Thierry</span>
+        </div>
+        <div class="postMessage">
+          Welcome to CSCC09!
+        </div>
+        <div class="thumbs">
+          <div class="item2" id="thumbsdown"><span class="item1">2</span></div>
+          <div class="item2" id="thumbsup"><span class="item1">128</span></div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+        <a href='/credits.html'>credits</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+html {overflow: -moz-scrollbars-vertical;}
+
+body {
+		background: #FFFFFF;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		color: #3C3D3F;
+	  text-align: left;
+
+		max-width: 800px;   /* set the body to be 800px long */
+	  margin: auto;       /* center the app in the middle of the browser window */
+}
+
+header{
+    display:flex;
+    margin-top:36px;
+    justify-content:flex-end;
+}
+
+header h1{
+    margin: 0px;
+    padding-top:4px;
+    width:100%;
+    font-size:48px;
+}
+
+.header_button{
+    height: 64px;
+    width: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#close_button{
+    background-image: url('../media/close33.png');
+}
+
+footer{
+    margin-top: 20px;
+    text-align:center;
+}
+
+textarea {
+	height: 120px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:
+}
+
+.user .thumbs {
+	flex-grow: 1;
+}
+
+.postMessage {
+	align-items: center;
+	flex-grow: 1;
+}
+
+.item1 {
+	order: 1;
+	text-align: center;
+	display:block;
+}
+
+.item2 {
+	order: 2;
+	text-align: center;
+	display:block;
+}
+
+#thumbsup {
+	background-image: url('../media/thumbs4.png');
+	width: 30px;
+	height: auto;;
+	padding-top: 5px;
+	display:block;
+}
+
+#thumbsdown {
+	background-image: url('../media/like6.png');
+	width: 30px;
+	height: 30px;
+	padding-top: 5px;
+	display:block;
+}
